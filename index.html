@@ -18,6 +18,14 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+
+    <div id="root">
+        <div class="text-center p-5">
+            <h1 v-text="saluto"></h1>
+            <img :src="image" :alt="saluto">
+            <h2>{{risposta}}</h2>
+        </div>
+    </div>
+
 </body>
 </html>
